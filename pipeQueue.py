@@ -48,7 +48,7 @@ def main():
             if not frame_queue.empty():
                 frame = frame_queue.get()
                 cv2.imshow('Video', frame)
-                if cv2.waitKey(1) & 0xFF == ord('q'):
+                if cv2.waitKey(25) & 0xFF == ord('q'):
                     break
             
             if not klv_queue.empty():

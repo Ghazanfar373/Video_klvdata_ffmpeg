@@ -43,7 +43,7 @@ while True:
     cv2.imshow('Video', frame)
 
     # Break the loop on key press
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(20) & 0xFF == ord('q'):
         break
 
 # Release resources
